@@ -1,0 +1,49 @@
+
+footer {
+    width: 100%;
+    position: absolute;
+text-align: center;
+    top: 580vh;
+    padding-top: 15px;
+    background-color: rgb(255, 245, 231);
+}
+
+.footer-main{
+    display: flex;
+
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+ul{
+    list-style: none;
+    color: gray;
+    padding-right: 40px;
+}
+
+.supro{
+    width: 90px;
+    height: 50px;
+    padding: 10px;
+}
+
+.about{
+    color: gray;
+}
+
+.footer-down{
+    display: flex;
+   
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.iconlar{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}

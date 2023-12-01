@@ -1,0 +1,103 @@
+.cards {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    left: 30px;
+    position: absolute;
+    top: 1090px;
+}
+
+.inputSearch {
+    position: absolute;
+    top: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 390px;
+    padding: 10px;
+    right: 250px;
+}
+
+.slide{
+    height: 960px;
+    
+}
+.sliders {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.icon{
+
+    display: flex;
+    margin-top: 230px;
+    width: 30px;
+    height: 140px;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: 120px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text{
+    margin-top: 20px; 
+    text-align: left;
+
+}
+
+.maindiv{
+    position: absolute;
+    display: flex;
+  margin-top: 220px;
+    width: 600px;
+    text-align: center;
+    margin-left: 350px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.casual{
+    list-style: none;
+   padding-right: 50px;
+   color: rgb(63, 63, 63);
+   margin-top: 10px;
+}
+
+.ahref{
+    position: absolute;
+
+    top: 1030px;
+    display: flex;
+    gap: 80px;
+    font-size: 26px;
+    left: 510px;
+
+}
+
+.ahref a{
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    transition: 0.3s;
+}
+
+.ahref a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.sebet{
+    background-color:salmon;
+    color: white;
+text-align: center;
+position: fixed;
+top: 600px;
+left: 30px;
+    width: 50px;
+    z-index: 1;
+padding-top: 10px;
+    height: 50px;
+    border-radius: 5px;
+}

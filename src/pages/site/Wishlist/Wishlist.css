@@ -1,0 +1,27 @@
+.cardlar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card p {
+    padding: 6px;
+}
+
+.deleteWishlist {
+    border: none;
+    background-color: rgb(185, 18, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.detail {
+    margin-right: 20px;
+}
